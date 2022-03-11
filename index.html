@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,90 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Quiz App</title>
 </head>
+
 <body>
-    
+    <!-- Top-Section -->
+    <div class="intro bg-white text-primary text-center mt-4">
+        <div class="container">
+            <h1 class="display-3">Quiz App</h1>
+        </div>
+    </div>
+
+    <!-- Result-Section -->
+    <div class="result d-none py-4 bg-light text-center">
+        <div class="container lead">
+            <p>Score is: <span class="text-primary display-3 p-3">0%</span></p>
+        </div>
+    </div>
+
+    <!-- Quiz-Section -->
+    <div class="bg-primary text-white">
+        <div class="container p-3">
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">Q1. What is the rarest M&M color?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A">
+                        <label class="form-check-label">A. Brown</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">B. Yellow</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">Q2. In a website browser address bar, what does “www” stand for?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A">
+                        <label class="form-check-label">A. World Wide Web</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">B. Whole Wide Web</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">Q3. In what year were the first Air Jordan sneakers released?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A">
+                        <label class="form-check-label">A. 1984</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label class="form-check-label">B. 1884</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">Q4. Which African country was formerly known as Abyssinia?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A">
+                        <label class="form-check-label">A. Ethiopia</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B">
+                        <label class="form-check-label">B. Egypt</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">Q5. Which country consumes the most chocolate per capita?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="A">
+                        <label class="form-check-label">A. Switzerland</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="B">
+                        <label class="form-check-label">B. Netherlands</label>
+                    </div>
+                </div>
+
+                <div class="text-center"><input type="submit" class="btn btn-light"></div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
